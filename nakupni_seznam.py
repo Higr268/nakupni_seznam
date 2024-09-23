@@ -23,5 +23,7 @@ def zobrazit_seznam(seznam):
 def seradit_seznam(seznam):
     seznam.sort()
 
-
+def ukoncit_program():
+    exit
+    
 #hlavní program
