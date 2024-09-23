@@ -1,4 +1,5 @@
-# funkce pro správu nákupního seznamu
+# funkce pro správu nákupního seznam
+
 def pridat_polozku(seznam):
     polozka = input("Zadej název položky k přidání: ")
     seznam.append(polozka)
@@ -11,5 +12,15 @@ def odebrat_polozku(seznam):
         print(f"Položka {polozka} byla odebrána.")
     else:
         print(f"Položka {polozka} není v nákupním seznamu.")
+
+def zobrazit_seznam():
+    if seznam:
+        print(seznam)
+    else:
+        print("Seznam je prázdný.")
+
+
+
+
 
 #hlavní program
