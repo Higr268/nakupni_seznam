@@ -13,14 +13,15 @@ def odebrat_polozku(seznam):
     else:
         print(f"Položka {polozka} není v nákupním seznamu.")
 
-def zobrazit_seznam():
+def zobrazit_seznam(seznam):
     if seznam:
         print(seznam)
     else:
         print("Seznam je prázdný.")
 
 
-
+def seradit_seznam(seznam):
+    seznam.sort()
 
 
 #hlavní program
