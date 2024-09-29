@@ -23,6 +23,9 @@ def zobrazit_seznam(seznam):
 def seradit_seznam(seznam):
     seznam.sort()
 
+def zobrazit_pocet_polozek(seznam):
+    print(f"V seznamu je {len(seznam)} položek.")
+
 def ukoncit_program():
     exit
     
